@@ -1,0 +1,9 @@
+.container {}
+
+.container .row {}
+
+.container .row h1 {
+    text-align: center;
+}
+
+.container {}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Trang quản trị danh mục</h1>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        Nhập vào tên danh mục:
+                        <input type="text" name="txt_cate_name" id="" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        Nhập vào trạng thái:
+                        <input type="text" name="txt_status" id="" class="form-control">
+                    </div>
+                    <br>
+                    <input type="submit" value="Thêm mới" name="insert" class="btn btn-primary">
+                    <br> Tìm kiếm danh mục:
+                    <div class="form-group">
+                        <input type="text" name="txt_search" id="" class="form-control">
+                    </div>
+                    <input type="submit" value="Tìm kiếm" class="btn btn-success">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-striped">
+                    <tr>
+                        <th>Mã danh mục</th>
+                        <th>Tên danh mục</th>
+                        <th>Trạng thái</th>
+                        <th>Thao tác</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Tin tức</td>
+                        <td>1</td>
+                        <td>
+                            <a href="#" class="btn btn-warning">Sửa</a>
+                            <a href="#" class="btn btn-danger">Xóa</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
